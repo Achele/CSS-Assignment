@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 18px;
+}
+.section1 {
+  color: green;
+  padding: 0.5em 2em;
+}
+
+.section1 p {
+  font-size: 14px;
+}
+
+.section2 {
+  color: red;
+  padding: 0.5em 2em;
+}
+.section2 h2,
+.section2 p,
+.section2 ul li,
+.section2 h4 {
+  font-size: 14px;
+}
+.css-example {
+  background: gainsboro;
+  padding: 0.5em 1em;
+  margin: 1em 5em;
+}
+.css-example div {
+  width: 200px;
+  background: #00008b;
+  padding: 1em 2em;
+  margin: 1em;
+}
+.section3 {
+  color: blue;
+  padding: 0.5em 2em;
+}
+.section3 p,
+.section3 h3 {
+  font-size: 14px;
+}
